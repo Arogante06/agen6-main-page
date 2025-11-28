@@ -43,12 +43,26 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "A GEN - Soluciones de Nueva Generación",
+    title: "A GEN - Soluciones de Nueva Generación | Agen6",
     description: "Automatización empresarial con IA, integraciones inteligentes y optimización de procesos",
   },
   verification: {
     google: "google-site-verification-code", // Reemplazar con código real
   },
+  icons: {
+    other: [
+      {
+        rel: "icon",
+        url: "/favicon-light.ico",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        rel: "icon",
+        url: "/favicon-dark.ico",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
